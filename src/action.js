@@ -6,7 +6,7 @@
  * ====================================================================================
  */
 
-var EventEmitter = require('eventemitter2').EventEmitter2;
+var EventEmitter = require('eventemitter2').EventEmitter2 || require('eventemitter2');
 
 var createActionFunction = function (actionName) {
 
